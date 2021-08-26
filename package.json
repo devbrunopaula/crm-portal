@@ -34,5 +34,8 @@
     "reflect-metadata": "^0.1.13",
     "source-map-support": "^0.5.19",
     "url-parse": "^1.5.3"
+  },
+  "engines": {
+    "node": "14.17.1"
   }
 }
