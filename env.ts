@@ -15,12 +15,13 @@
 import Env from '@ioc:Adonis/Core/Env'
 
 export default Env.rules({
-  HOST: Env.schema.string({ format: 'host' }),
-  PORT: Env.schema.number(),
+  HOST: Env.schema.string.optional({ format: 'host' }),
+  PORT: Env.schema.number.optional(),
   APP_KEY: Env.schema.string(),
   APP_NAME: Env.schema.string(),
   NODE_ENV: Env.schema.enum(['development', 'production', 'testing'] as const),
   // db
-  DB_CONNECTION: Env.schema.string(),
-  DATABASE_URL: Env.schema.string(),
+  DB_CONNECTION: Env.schema.string.optional(),
+  DATABASE_URL: Env.schema.string.optional(),
+  SESSION_DRIVER: Env.schema.string(),
 })
