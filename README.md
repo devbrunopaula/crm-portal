@@ -13,7 +13,7 @@
     <img src="https://github.com/devbrunopaula/pomobreak/raw/main/github/images/bruno.jpg" alt="Logo"  >
   </a>
 
-  <h3 align="center">CRM Admin</h3>
+  <h3 align="center">CRM Admin Back End</h3>
 
   <p align="center">
     The CRM Portal Connector is a platform that provides seamless two-way integration between CRM Plataforms and CRM Portal.
