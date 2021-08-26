@@ -1,2 +1,2 @@
-release: ENV_SILENT=true node ace build --production migration:run --force
-web: ENV_SILENT=true node ./build/server.js
+release: ENV_SILENT=true node ace build
+web: ENV_SILENT=true ./build/server.js npm ci --production node server.js
