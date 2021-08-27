@@ -1,2 +1,2 @@
-release: node ace build --production
+release: node ace build
 web: node build/server.js
